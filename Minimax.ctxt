@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=positions
+comment0.target=Minimax(Board)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Minimax\n\ Creates\ an\ arraylist\ which\ will\ hold\ potnetial\ board\ positions\ to\ be\ evaluated\ \n\ Creates\ a\ board\ with\ the\ current\ positions\ \ \n
+comment1.params=turn
+comment1.target=void\ getAvaliableStates(boolean)
+comment1.text=\n\ Moves\ through\ possible\ positions,\ and\ adds\ further\ positions\ on\ top\ of\ the\ newly\ created\ positions\n\ Called\ by\ the\ computer\ player\ which\ will\ call\ this\ method\ as\ many\ times\ as\ the\ depth\ set\n\ Depth\ is\ set\ by\ player\ choosing\ difficulty\n\ @param\ turn\ whoevers\ turn\ it\ currently\ is\ \n
+comment2.params=turn
+comment2.target=int\ minimax(boolean)
+comment2.text=\n\ Returns\ the\ value\ of\ the\ best\ move\ in\ this\ part\ of\ the\ Tree\n
+comment3.params=turn
+comment3.target=Minimax\ getMove(boolean)
+comment3.text=\n\ For\ all\ sucessive\ positions,\ evalate\ the\ scores\ and\ return\ the\ highest\ scoring\ for\ an\ optimal\ move.\ \n\ @param\ boolean\ turn\n\ @return\ Minimax\ the\ best\ board\ position\n
+numComments=4

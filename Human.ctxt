@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=BP\ turn
+comment0.target=Human(Board,\ boolean)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Human\n
+comment1.params=
+comment1.target=Board\ getMove()
+comment1.text=\n\ Gets\ all\ valid\ and\ legal\ moves,\ contraining\ the\ player\ to\ only\ those.\n
+comment2.params=BP\ turn
+comment2.target=void\ update(Board,\ boolean)
+comment2.text=\n\ Updates\ the\ board\ with\ the\ players\ move\n
+comment3.params=
+comment3.target=void\ getClickAndDrag()
+comment3.text=\n\ This\ method\ waits\ until\ the\ player\ clicks\n
+comment4.params=e
+comment4.target=void\ onMousePressed(java.awt.event.MouseEvent)
+comment4.text=\n\ Gets\ the\ coordinates\ of\ where\ the\ mouse\ was\ clicked\n\ \n
+comment5.params=e
+comment5.target=void\ onMouseReleased(java.awt.event.MouseEvent)
+comment5.text=\n\ Determines\ the\ direction\ that\ the\ mouse\ was\ moved\ while\ clicked\n
+numComments=6
